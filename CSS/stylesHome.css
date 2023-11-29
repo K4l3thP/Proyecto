@@ -27,7 +27,15 @@ html {
 body {
   background-color: #000a14;
 }
-
+a {
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+}
+a:hover{
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
 /*Barra de Navegacion*/
 nav {
   background: var(--Background);
@@ -156,9 +164,6 @@ p {
   .carousel-caption h5{
   margin-bottom: 37%;
   font-size: 3em;
-  }
-  .image {
-
   }
 }
 /*Carousel-FIN*/
@@ -291,7 +296,7 @@ footer p {
   background-color: inherit;
   box-shadow: none;
 }
-footer a {
+a {
   text-decoration: none;
   color: white;
   transition: .5s;
@@ -302,10 +307,7 @@ footer a {
   margin-left: .3em;
   transition: .5s;
 }
-footer a:hover{
-  text-decoration: underline;
-  color: rgba(169, 255, 255);
-}
+
 #pCopyright {
   font-size: 0.9em;
   padding: 1.2em;
