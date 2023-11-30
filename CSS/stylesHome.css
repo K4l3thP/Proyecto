@@ -341,6 +341,9 @@ footer hr{
   opacity: 100%;
   display: none;
 }
+#botonMapsWaze{
+  width: 100%;
+}
 @media (width > 1400px) {
   .groupFooter{
     flex-direction: row;
@@ -378,6 +381,7 @@ footer hr{
   #pCopyright {
     padding-bottom: 2em;
   }
+
 }
 
 /*Footer FIN*/
