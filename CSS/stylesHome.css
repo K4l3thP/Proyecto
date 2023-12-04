@@ -60,6 +60,7 @@ li {
 li a:hover {
   text-decoration: underline;
 }
+
 @media (width < 476px) {
   a h2 {
     font-size: .9em;
@@ -92,7 +93,7 @@ li a:hover {
   padding: 9em 1em;
   background-repeat: no-repeat;
   position: relative;
-  background-image: url("../Themis.jpg");
+  background-image: url("../Imagenes/Themis.jpg");
   background-size: cover;
   background-position: center;
   justify-content: center;
