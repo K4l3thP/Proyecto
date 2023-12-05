@@ -1,6 +1,6 @@
 {
   "datos": {
-    "foto": "../Imagenes/fotoAutor.jpeg",
+    "foto": "Imagenes/fotoAutor.jpeg",
     "nombre": "Kaleth Pérez Angulo",
     "cedula": "2-0842-0278",
     "correo": "kalethprz1@gmail.com"
