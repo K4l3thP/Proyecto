@@ -2,7 +2,7 @@ function CargaDatos(){
     $(document).ready(function () {
         $.ajax({
             type: "get",
-            url: "https://k4l3thp.github.io/jsonDatosAutor/datos.json",
+            url: "https://k4l3thp.github.io/Proyecto/JSON/datosAutor.json",
             dataType: "json",
             success: OnSuccess,
         });
