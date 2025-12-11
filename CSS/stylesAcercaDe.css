@@ -44,6 +44,12 @@ iframe {
   flex-direction: column;
   margin-bottom: 4em;
 }
+.logoImg {
+  border-radius: 50%;
+  height: auto;
+  width: 15em;
+  margin: .5em 0  2em 0;
+}
 
 @media (width > 1400px) {
   .apartadoAcercaDe {
@@ -56,8 +62,9 @@ iframe {
     align-items: left;
     width: 40%;
   }
-  .video {
-    width: 40%;
+  .logoImg {
+    width: 25em;
+    margin: 1em 0;
   }
   iframe {
     width: 100%;
