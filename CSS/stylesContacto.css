@@ -357,6 +357,13 @@ footer {
     .linkwhatsapp{
       margin: 1em;
     }
+     html {
+    overflow-x: hidden;
+  }
+  .groupFooter {
+    width: 100vw;
+    margin-left: 0;
+  }
   }
   
   /*Footer FIN*/

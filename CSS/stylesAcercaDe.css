@@ -48,14 +48,14 @@ iframe {
   border-radius: 50%;
   height: auto;
   width: 15em;
-  margin: .5em 0  2em 0;
+  margin: 0.5em 0 2em 0;
 }
 
 @media (width > 1400px) {
   .apartadoAcercaDe {
     flex-direction: row;
     justify-content: center;
-    width: 90vw;
+    width: 100%;
   }
   .quienesSomos {
     text-align: left;
@@ -73,5 +73,12 @@ iframe {
   }
   .mapaIframe {
     width: 80%;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .groupFooter {
+    width: 100vw;
+    margin-left: 0;
   }
 }

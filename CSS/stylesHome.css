@@ -382,7 +382,12 @@ footer hr{
   #pCopyright {
     padding-bottom: 2em;
   }
-
+   html {
+    overflow-x: hidden;
+  }
+  .groupFooter {
+    width: 100vw;
+    margin-left: 0;
+  }
 }
-
 /*Footer FIN*/
