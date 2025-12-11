@@ -1,7 +1,6 @@
 window.onload = CargarTodo;
 function CargarTodo(){
     annioActual();
-    CargaDatos();
 }
 function annioActual(){
     let annio = new Date().getFullYear();
